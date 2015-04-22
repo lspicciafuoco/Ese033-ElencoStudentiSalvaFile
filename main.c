@@ -21,7 +21,7 @@ int main(int argc, char** argv) {
     for(i = 0; i < N; i++) {
         printf("Nome %d : ", i);
         scanf("%s", elenco[i].nome);
-        printf("Cognome elemento %d : ", i);
+        printf("Cognome %d : ", i);
         scanf("%s", elenco[i].cognome);
         printf("Eta' %d : ", i);
         scanf("%d", &(elenco[i].eta));
